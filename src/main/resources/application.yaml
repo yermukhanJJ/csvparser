@@ -1,0 +1,12 @@
+server:
+  port: 8181
+
+cron:
+  filePath: 'C:\Users\User\Java Projects\csvparser\src\main\resources\file.csv'
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/csvdb
+    username: postgres
+    password: admin
+
