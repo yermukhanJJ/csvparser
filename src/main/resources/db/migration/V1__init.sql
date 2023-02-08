@@ -1,0 +1,6 @@
+CREATE TABLE PROFILE_TAB (
+    ID serial NOT NULL,
+    FIRSTNAME varchar(255) NOT NULL,
+    LASTNAME varchar(255) NOT NULL,
+    ITN varchar(255) NOT NULL
+);
